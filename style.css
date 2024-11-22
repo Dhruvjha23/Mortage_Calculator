@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .calculator-container {
+    display: flex;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+  }
+  
+  .calculator-form {
+    padding: 23px;
+    width: 300px;
+  }
+  
+  .calculator-form h1 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+  }
+  
+  .form-elements {
+    margin-bottom: 15px;
+  }
+  
+  .form-elements label {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #333;
+  }
+  
+  .form-elements input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+
+  .radio-group {
+    display: flex;
+    gap: 8px;
+  }
+
+
+  .radio-option {
+    display: inline-block;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  
+  .radio-option input[type="radio"] {
+    display: none; /* Hides the default radio button */
+  }
+  
+  .radio-option label {
+    display: inline;
+    padding: 10px 20px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  /* Default state */
+  .radio-option label {
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Checked state */
+  .radio-option input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+  }
+  
+  
+  /* .radio-option {
+    flex: 1;
+    padding: 7px;
+    margin-bottom: 10px;
+    text-align: center;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background: #f0f4fc;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .radio-option input[type="radio"] {
+    display: none;
+  }
+  
+  .radio-option:hover {
+    border-color: #007bff;
+  }
+
+
+  .radio-option input[type="radio"]:checked + label {
+    background: #007bff;
+    color: white;
+    border-color: #ff0000;
+  } */
+  
+  
+  .calculate-button {
+    background-color: #ffcc00;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  .calculate-button:hover {
+    background-color: #e6b800;
+  }
+  
+  .calculator-results {
+    background-color: #1e2a47;
+    color: #fff;
+    padding: 20px;
+    width: 300px;
+  }
+  
+  .calculator-results h2 {
+    margin-bottom: 15px;
+  }
+  
+  .calculator-results p {
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+  
+
+  @media screen and (max-width: 768px) {
+      .calculator-container {
+        display: block !important;
+      }
+  }
