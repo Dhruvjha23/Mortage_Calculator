@@ -88,36 +88,6 @@
     border-color: #007bff;
   }
   
-  
-  /* .radio-option {
-    flex: 1;
-    padding: 7px;
-    margin-bottom: 10px;
-    text-align: center;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    background: #f0f4fc;
-    font-weight: bold;
-    cursor: pointer;
-    transition: 0.3s;
-  }
-  
-  .radio-option input[type="radio"] {
-    display: none;
-  }
-  
-  .radio-option:hover {
-    border-color: #007bff;
-  }
-
-
-  .radio-option input[type="radio"]:checked + label {
-    background: #007bff;
-    color: white;
-    border-color: #ff0000;
-  } */
-  
-  
   .calculate-button {
     background-color: #ffcc00;
     color: #fff;
